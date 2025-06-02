@@ -51,6 +51,7 @@
     <Compile Include="config\Services_cls.cs" />
     <Compile Include="model\Kabupaten_cls.cs" />
     <Compile Include="model\Kecamatan_cls.cs" />
+    <Compile Include="model\Kelurahan_cls.cs" />
     <Compile Include="model\Penduduk_cls.cs" />
     <Compile Include="model\Pengguna_cls.cs" />
     <Compile Include="view\dashboard.cs">
@@ -73,6 +74,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="view\KelurahanControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\KelurahanControl.Designer.cs">
+      <DependentUpon>KelurahanControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\login_frm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +122,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="view\KelurahanControl.resx">
+      <DependentUpon>KelurahanControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\login_frm.resx">
       <DependentUpon>login_frm.cs</DependentUpon>
     </EmbeddedResource>

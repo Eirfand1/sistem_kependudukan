@@ -22,10 +22,10 @@ namespace Sireduk.view
         private void PendudukControl_Load(object sender, EventArgs e)
         {
             indexGrid();
-            DataTable kecamatan = new Kecamatan_cls().index();
-            kecamatanCb.DataSource = kecamatan;
-            kecamatanCb.DisplayMember = "nama_kecamatan";
-            kecamatanCb.ValueMember = "id_kecamatan";
+            DataTable kelurahan = new Kelurahan_cls().index();
+            kelurahanCb.DataSource = kelurahan;
+            kelurahanCb.DisplayMember = "nama_kelurahan";
+            kelurahanCb.ValueMember = "id_kelurahan";
 
             lakiRb.Checked = true;
         }
@@ -49,7 +49,7 @@ namespace Sireduk.view
                 penduduk.Nama_Penduduk = nama_pendudukTb.Text;
                 penduduk.Jenis_Kelamin = jenis_kelamin;
                 penduduk.Desa = desaTb.Text;
-                penduduk.Id_Kecamatan = kecamatanCb.SelectedValue.ToString();
+                penduduk.Id_Kelurahan = kelurahanCb.SelectedValue.ToString();
 
                 if (penduduk.simpanData() > 0)
                 {
@@ -118,7 +118,7 @@ namespace Sireduk.view
                     penduduk.Nama_Penduduk = nama_pendudukTb.Text;
                     penduduk.Jenis_Kelamin = jenis_kelamin;
                     penduduk.Desa = desaTb.Text;
-                    penduduk.Id_Kecamatan = kecamatanCb.SelectedValue.ToString();
+                    penduduk.Id_Kelurahan = kelurahanCb.SelectedValue.ToString();
 
                     if (penduduk.updateData() > 0)
                     {
@@ -194,7 +194,7 @@ namespace Sireduk.view
                 }
 
                     desaTb.Text = baris.Cells[3].Value.ToString(); 
-                kecamatanCb.SelectedValue = baris.Cells[4].Value.ToString(); 
+                kelurahanCb.SelectedValue = baris.Cells[4].Value.ToString(); 
             }
         }
 

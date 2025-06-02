@@ -28,13 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.searchPanel = new System.Windows.Forms.Panel();
             this.searchIcon = new System.Windows.Forms.Label();
             this.cariTb = new System.Windows.Forms.TextBox();
             this.headerLabel = new System.Windows.Forms.Label();
             this.formPanel = new System.Windows.Forms.Panel();
+            this.perempuanRb = new System.Windows.Forms.RadioButton();
+            this.lakiRb = new System.Windows.Forms.RadioButton();
+            this.kelurahanCb = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -51,11 +54,8 @@
             this.cNama = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cJenis_kelamin = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cDesa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cId_kecamatan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cNama_kecamatan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.kecamatanCb = new System.Windows.Forms.ComboBox();
-            this.lakiRb = new System.Windows.Forms.RadioButton();
-            this.perempuanRb = new System.Windows.Forms.RadioButton();
+            this.cId_kelurahan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cNama_kelurahan = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.searchPanel.SuspendLayout();
             this.formPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.penduduk_dgv)).BeginInit();
@@ -108,7 +108,7 @@
             this.formPanel.BackColor = System.Drawing.Color.White;
             this.formPanel.Controls.Add(this.perempuanRb);
             this.formPanel.Controls.Add(this.lakiRb);
-            this.formPanel.Controls.Add(this.kecamatanCb);
+            this.formPanel.Controls.Add(this.kelurahanCb);
             this.formPanel.Controls.Add(this.label3);
             this.formPanel.Controls.Add(this.label2);
             this.formPanel.Controls.Add(this.label1);
@@ -125,6 +125,39 @@
             this.formPanel.Size = new System.Drawing.Size(280, 329);
             this.formPanel.TabIndex = 34;
             // 
+            // perempuanRb
+            // 
+            this.perempuanRb.AutoSize = true;
+            this.perempuanRb.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.perempuanRb.Location = new System.Drawing.Point(22, 135);
+            this.perempuanRb.Name = "perempuanRb";
+            this.perempuanRb.Size = new System.Drawing.Size(92, 21);
+            this.perempuanRb.TabIndex = 22;
+            this.perempuanRb.TabStop = true;
+            this.perempuanRb.Text = "Perempuan";
+            this.perempuanRb.UseVisualStyleBackColor = true;
+            // 
+            // lakiRb
+            // 
+            this.lakiRb.AutoSize = true;
+            this.lakiRb.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lakiRb.Location = new System.Drawing.Point(118, 135);
+            this.lakiRb.Name = "lakiRb";
+            this.lakiRb.Size = new System.Drawing.Size(72, 21);
+            this.lakiRb.TabIndex = 21;
+            this.lakiRb.TabStop = true;
+            this.lakiRb.Text = "Laki-laki";
+            this.lakiRb.UseVisualStyleBackColor = true;
+            // 
+            // kelurahanCb
+            // 
+            this.kelurahanCb.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kelurahanCb.FormattingEnabled = true;
+            this.kelurahanCb.Location = new System.Drawing.Point(20, 235);
+            this.kelurahanCb.Name = "kelurahanCb";
+            this.kelurahanCb.Size = new System.Drawing.Size(239, 25);
+            this.kelurahanCb.TabIndex = 20;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -132,9 +165,9 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label3.Location = new System.Drawing.Point(19, 217);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 15);
+            this.label3.Size = new System.Drawing.Size(60, 15);
             this.label3.TabIndex = 19;
-            this.label3.Text = "Id Kecamatan";
+            this.label3.Text = "Kelurahan";
             // 
             // label2
             // 
@@ -264,30 +297,30 @@
             this.penduduk_dgv.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.penduduk_dgv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.penduduk_dgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.penduduk_dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.penduduk_dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.penduduk_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.penduduk_dgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.cnik,
             this.cNama,
             this.cJenis_kelamin,
             this.cDesa,
-            this.cId_kecamatan,
-            this.cNama_kecamatan});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(240)))), ((int)(((byte)(248)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.penduduk_dgv.DefaultCellStyle = dataGridViewCellStyle4;
+            this.cId_kelurahan,
+            this.cNama_kelurahan});
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(240)))), ((int)(((byte)(248)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.penduduk_dgv.DefaultCellStyle = dataGridViewCellStyle2;
             this.penduduk_dgv.EnableHeadersVisualStyles = false;
             this.penduduk_dgv.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.penduduk_dgv.Location = new System.Drawing.Point(302, 67);
@@ -328,52 +361,19 @@
             this.cDesa.Name = "cDesa";
             this.cDesa.ReadOnly = true;
             // 
-            // cId_kecamatan
+            // cId_kelurahan
             // 
-            this.cId_kecamatan.DataPropertyName = "id_kecamatan";
-            this.cId_kecamatan.HeaderText = "ID KECAMATAN";
-            this.cId_kecamatan.Name = "cId_kecamatan";
-            this.cId_kecamatan.ReadOnly = true;
+            this.cId_kelurahan.DataPropertyName = "id_kelurahan";
+            this.cId_kelurahan.HeaderText = "ID KECAMATAN";
+            this.cId_kelurahan.Name = "cId_kelurahan";
+            this.cId_kelurahan.ReadOnly = true;
             // 
-            // cNama_kecamatan
+            // cNama_kelurahan
             // 
-            this.cNama_kecamatan.DataPropertyName = "nama_kecamatan";
-            this.cNama_kecamatan.HeaderText = "KECAMATAN";
-            this.cNama_kecamatan.Name = "cNama_kecamatan";
-            this.cNama_kecamatan.ReadOnly = true;
-            // 
-            // kecamatanCb
-            // 
-            this.kecamatanCb.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kecamatanCb.FormattingEnabled = true;
-            this.kecamatanCb.Location = new System.Drawing.Point(20, 235);
-            this.kecamatanCb.Name = "kecamatanCb";
-            this.kecamatanCb.Size = new System.Drawing.Size(239, 25);
-            this.kecamatanCb.TabIndex = 20;
-            // 
-            // lakiRb
-            // 
-            this.lakiRb.AutoSize = true;
-            this.lakiRb.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lakiRb.Location = new System.Drawing.Point(118, 135);
-            this.lakiRb.Name = "lakiRb";
-            this.lakiRb.Size = new System.Drawing.Size(72, 21);
-            this.lakiRb.TabIndex = 21;
-            this.lakiRb.TabStop = true;
-            this.lakiRb.Text = "Laki-laki";
-            this.lakiRb.UseVisualStyleBackColor = true;
-            // 
-            // perempuanRb
-            // 
-            this.perempuanRb.AutoSize = true;
-            this.perempuanRb.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.perempuanRb.Location = new System.Drawing.Point(22, 135);
-            this.perempuanRb.Name = "perempuanRb";
-            this.perempuanRb.Size = new System.Drawing.Size(92, 21);
-            this.perempuanRb.TabIndex = 22;
-            this.perempuanRb.TabStop = true;
-            this.perempuanRb.Text = "Perempuan";
-            this.perempuanRb.UseVisualStyleBackColor = true;
+            this.cNama_kelurahan.DataPropertyName = "nama_kelurahan";
+            this.cNama_kelurahan.HeaderText = "KELURAHAN";
+            this.cNama_kelurahan.Name = "cNama_kelurahan";
+            this.cNama_kelurahan.ReadOnly = true;
             // 
             // PendudukControl
             // 
@@ -415,14 +415,14 @@
         private System.Windows.Forms.Button saveBtn;
         private System.Windows.Forms.Button updateBtn;
         private System.Windows.Forms.DataGridView penduduk_dgv;
+        private System.Windows.Forms.ComboBox kelurahanCb;
+        private System.Windows.Forms.RadioButton perempuanRb;
+        private System.Windows.Forms.RadioButton lakiRb;
         private System.Windows.Forms.DataGridViewTextBoxColumn cnik;
         private System.Windows.Forms.DataGridViewTextBoxColumn cNama;
         private System.Windows.Forms.DataGridViewTextBoxColumn cJenis_kelamin;
         private System.Windows.Forms.DataGridViewTextBoxColumn cDesa;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cId_kecamatan;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cNama_kecamatan;
-        private System.Windows.Forms.ComboBox kecamatanCb;
-        private System.Windows.Forms.RadioButton perempuanRb;
-        private System.Windows.Forms.RadioButton lakiRb;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cId_kelurahan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cNama_kelurahan;
     }
 }

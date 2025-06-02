@@ -30,6 +30,7 @@
         {
             this.sidebarPanel = new System.Windows.Forms.Panel();
             this.menuPanel = new System.Windows.Forms.Panel();
+            this.kelurahan_lb = new System.Windows.Forms.Label();
             this.keluarLb = new System.Windows.Forms.Label();
             this.kabupatenLb = new System.Windows.Forms.Label();
             this.kecamatanLb = new System.Windows.Forms.Label();
@@ -53,11 +54,12 @@
             this.sidebarPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebarPanel.Location = new System.Drawing.Point(0, 0);
             this.sidebarPanel.Name = "sidebarPanel";
-            this.sidebarPanel.Size = new System.Drawing.Size(220, 517);
+            this.sidebarPanel.Size = new System.Drawing.Size(220, 508);
             this.sidebarPanel.TabIndex = 34;
             // 
             // menuPanel
             // 
+            this.menuPanel.Controls.Add(this.kelurahan_lb);
             this.menuPanel.Controls.Add(this.keluarLb);
             this.menuPanel.Controls.Add(this.kabupatenLb);
             this.menuPanel.Controls.Add(this.kecamatanLb);
@@ -67,8 +69,21 @@
             this.menuPanel.Location = new System.Drawing.Point(0, 80);
             this.menuPanel.Name = "menuPanel";
             this.menuPanel.Padding = new System.Windows.Forms.Padding(10, 20, 0, 0);
-            this.menuPanel.Size = new System.Drawing.Size(220, 437);
+            this.menuPanel.Size = new System.Drawing.Size(220, 428);
             this.menuPanel.TabIndex = 1;
+            // 
+            // kelurahan_lb
+            // 
+            this.kelurahan_lb.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.kelurahan_lb.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kelurahan_lb.ForeColor = System.Drawing.Color.White;
+            this.kelurahan_lb.Location = new System.Drawing.Point(30, 159);
+            this.kelurahan_lb.Name = "kelurahan_lb";
+            this.kelurahan_lb.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
+            this.kelurahan_lb.Size = new System.Drawing.Size(190, 30);
+            this.kelurahan_lb.TabIndex = 36;
+            this.kelurahan_lb.Text = "KELURAHAN";
+            this.kelurahan_lb.Click += new System.EventHandler(this.kelurahan_lb_Click);
             // 
             // keluarLb
             // 
@@ -76,7 +91,7 @@
             this.keluarLb.Cursor = System.Windows.Forms.Cursors.Hand;
             this.keluarLb.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.keluarLb.ForeColor = System.Drawing.Color.White;
-            this.keluarLb.Location = new System.Drawing.Point(30, 170);
+            this.keluarLb.Location = new System.Drawing.Point(30, 198);
             this.keluarLb.Name = "keluarLb";
             this.keluarLb.Size = new System.Drawing.Size(77, 20);
             this.keluarLb.TabIndex = 34;
@@ -88,7 +103,7 @@
             this.kabupatenLb.Cursor = System.Windows.Forms.Cursors.Hand;
             this.kabupatenLb.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.kabupatenLb.ForeColor = System.Drawing.Color.White;
-            this.kabupatenLb.Location = new System.Drawing.Point(30, 129);
+            this.kabupatenLb.Location = new System.Drawing.Point(30, 127);
             this.kabupatenLb.Name = "kabupatenLb";
             this.kabupatenLb.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.kabupatenLb.Size = new System.Drawing.Size(190, 30);
@@ -162,7 +177,7 @@
             this.mainContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainContainer.Location = new System.Drawing.Point(220, 0);
             this.mainContainer.Name = "mainContainer";
-            this.mainContainer.Size = new System.Drawing.Size(922, 517);
+            this.mainContainer.Size = new System.Drawing.Size(636, 508);
             this.mainContainer.TabIndex = 35;
             // 
             // container
@@ -172,17 +187,17 @@
             this.container.Location = new System.Drawing.Point(0, 0);
             this.container.Name = "container";
             this.container.Padding = new System.Windows.Forms.Padding(20);
-            this.container.Size = new System.Drawing.Size(922, 517);
+            this.container.Size = new System.Drawing.Size(636, 508);
             this.container.TabIndex = 35;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1142, 517);
+            this.ClientSize = new System.Drawing.Size(856, 508);
             this.Controls.Add(this.mainContainer);
             this.Controls.Add(this.sidebarPanel);
-            this.MinimumSize = new System.Drawing.Size(800, 500);
+            this.MinimumSize = new System.Drawing.Size(798, 494);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistem Informasi Kependudukan";
@@ -209,5 +224,6 @@
         private System.Windows.Forms.Panel headerPanel;
         private System.Windows.Forms.Label appTitle;
         private System.Windows.Forms.Panel mainContainer;
+        private System.Windows.Forms.Label kelurahan_lb;
     }
 }

@@ -60,10 +60,18 @@ namespace Sireduk.view
             ShowControl(dashboardControl);
         }
 
+        private void kelurahan_lb_Click(object sender, EventArgs e)
+        {
+            var kelurahanControl = new KelurahanControl();
+            ShowControl(kelurahanControl);
+        }
+
         private void keluarLb_Click(object sender, EventArgs e)
         {
             new login_frm().Show();
             this.Hide();
         }
+
+       
     }
 }

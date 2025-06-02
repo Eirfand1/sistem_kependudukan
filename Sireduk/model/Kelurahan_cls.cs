@@ -8,54 +8,46 @@ using Sireduk.config;
 
 namespace Sireduk.model
 {
-    class Penduduk_cls
+    class Kelurahan_cls
     {
-        private string _nik, _nama_penduduk, _jenis_kelamin, _desa, _id_kelurahan;
+        private string _id_kelurahan, _id_kecamatan, _nama_kelurahan, _kode_pos;
         KoneksiDb_cls server;
         string Query;
 
-        public Penduduk_cls()
+        public Kelurahan_cls()
         {
-            _nik = "";
-            _nama_penduduk = "";
-            _jenis_kelamin = "";
-            _desa = "";
             _id_kelurahan = "";
+            _id_kecamatan = "";
+            _nama_kelurahan = "";
+            _kode_pos = "";
 
             server = new KoneksiDb_cls();
-
             Query = "";
         }
 
-        public string Nik
-        {
-            set { _nik = value; }
-        }
-
-        public string Nama_Penduduk
-        {
-            set { _nama_penduduk = value; }
-        }
-
-        public string Jenis_Kelamin
-        {
-            set { _jenis_kelamin = value; }
-        }
-
-        public string Desa
-        {
-            set { _desa = value; }
-        }
-
-        public string Id_Kelurahan
+        public string ID_Kelurahan
         {
             set { _id_kelurahan = value; }
         }
 
+        public string ID_kecamatan
+        {
+            set { _id_kecamatan = value; }
+        }
+
+        public string Nama_kelurahan
+        {
+            set { _nama_kelurahan = value; }
+        }
+
+        public string Kode_pos
+        {
+            set { _kode_pos = value; }
+        }
         public bool isExist(string id)
         {
             bool cek = false;
-            Query = $"select * from penduduk where nik='{id}'";
+            Query = $"select * from kecamatan where id_kelurahan='{id}'";
 
             if (server.EksekusiQuery(Query).Rows.Count > 0)
             {
@@ -65,11 +57,10 @@ namespace Sireduk.model
             return cek;
         }
 
-
         public int simpanData()
         {
             int hasil = 1;
-            Query = $"insert into penduduk values('{_nik}', '{_nama_penduduk}', '{_jenis_kelamin}', '{_desa}', '{_id_kelurahan}')";
+            Query = $"insert into kelurahan values('{_id_kelurahan}', {_id_kecamatan},'{_nama_kelurahan}', '{_kode_pos}')";
 
             if (!(server.EksekusiBukanQuery(Query) > 0))
             {
@@ -77,12 +68,13 @@ namespace Sireduk.model
             }
             return hasil;
         }
+
 
         public int updateData()
         {
             int hasil = 1;
 
-            Query = $"update penduduk set nama_penduduk ='{_nama_penduduk}', jenis_kelamin = '{_jenis_kelamin}', desa = '{_desa}', id_kelurahan = '{_id_kelurahan}' where nik='{_nik}'";
+            Query = $"update kelurahan set nama_kelurahan ='{_nama_kelurahan}', id_kecamatan='{_id_kecamatan}', kode_pos='{_kode_pos}' where id_kelurahan='{_id_kelurahan}'";
 
             if (!(server.EksekusiBukanQuery(Query) > 0))
             {
@@ -91,10 +83,11 @@ namespace Sireduk.model
             return hasil;
         }
 
+
         public int hapusData()
         {
             int hasil = 1;
-            Query = $"delete from penduduk where nik='{_nik}'";
+            Query = $"delete from kelurahan where id_kelurahan='{_id_kelurahan}'";
 
             if (!(server.EksekusiBukanQuery(Query) > 0))
             {
@@ -106,16 +99,16 @@ namespace Sireduk.model
 
         public DataTable index()
         {
-            Query = "select p.*, kl.nama_kelurahan from penduduk p join kelurahan kl on kl.id_kelurahan=p.id_kelurahan";
+            Query = "select kl.*, kc.nama_kecamatan from kelurahan kl join kecamatan kc on kc.id_kecamatan=kl.id_kecamatan";
 
             return server.EksekusiQuery(Query);
         }
         public DataTable search(string nama)
         {
 
-            Query = $"select p.*, kl.nama_kelurahan from penduduk p join kelurahan kl on kl.id_kelurahan=p.id_kelurahan where nama_penduduk like '%{nama}%'";
-
+            Query = $"select kl.*, kc.nama_kecamatan from kelurahan kl join kecamatan kc on kc.id_kecamatan=kl.id_kecamatan where nama_kelurahan like '%{nama}%'";
             return server.EksekusiQuery(Query);
         }
+
     }
 }
