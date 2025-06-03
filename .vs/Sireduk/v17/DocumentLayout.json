@@ -1,77 +1,81 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\PBO\\sistem_kependudukan-main\\",
+  "WorkspaceRootPath": "D:\\project_PBO\\sistem_kependudukan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\PBO\\sistem_kependudukan-main\\sireduk\\model\\penduduk_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\model\\penduduk_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\PBO\\sistem_kependudukan-main\\sireduk\\view\\pendudukcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\pendudukcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\PBO\\sistem_kependudukan-main\\sireduk\\view\\pendudukcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\pendudukcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\PBO\\sistem_kependudukan-main\\sireduk\\config\\koneksidb_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\config\\koneksidb_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\PBO\\sistem_kependudukan-main\\sireduk\\model\\kelurahan_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\model\\kelurahan_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|d:\\pbo\\sistem_kependudukan-main\\sireduk\\view\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\PBO\\sistem_kependudukan-main\\sireduk\\view\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\PBO\\sistem_kependudukan-main\\sireduk\\view\\kecamatancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\kecamatancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\PBO\\sistem_kependudukan-main\\sireduk\\model\\kecamatan_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\model\\kecamatan_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\PBO\\sistem_kependudukan-main\\sireduk\\view\\kabupatencontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\kabupatencontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\PBO\\sistem_kependudukan-main\\sireduk\\view\\kelurahancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\view\\kelurahancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\kelurahancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\PBO\\sistem_kependudukan-main\\sireduk\\view\\kelurahancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\view\\kecamatancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\kecamatancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|d:\\project_pbo\\sistem_kependudukan\\sireduk\\view\\kecamatancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\kecamatancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\view\\kelurahancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\kelurahancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\PBO\\sistem_kependudukan-main\\sireduk\\view\\splashscreen_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\model\\kelurahan_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\model\\kelurahan_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|d:\\project_pbo\\sistem_kependudukan\\sireduk\\model\\penduduk_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\model\\penduduk_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\view\\pendudukcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\pendudukcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\view\\pendudukcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\pendudukcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\config\\koneksidb_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\config\\koneksidb_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\view\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\view\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\model\\kecamatan_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\model\\kecamatan_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\view\\kabupatencontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\kabupatencontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\view\\splashscreen_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\splashscreen_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\PBO\\sistem_kependudukan-main\\sireduk\\view\\splashscreen_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\view\\splashscreen_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\splashscreen_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\PBO\\sistem_kependudukan-main\\sireduk\\config\\services_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\config\\services_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\config\\services_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\PBO\\sistem_kependudukan-main\\sireduk\\view\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\view\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\PBO\\sistem_kependudukan-main\\sireduk\\view\\splashscreen_cls.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\view\\splashscreen_cls.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\splashscreen_cls.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\PBO\\sistem_kependudukan-main\\sireduk\\view\\login_frm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\view\\login_frm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\login_frm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -82,13 +86,13 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "login_frm.cs [Design]",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\login_frm.cs",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\login_frm.cs",
               "RelativeDocumentMoniker": "Sireduk\\view\\login_frm.cs",
               "ToolTip": "C:\\my_folder\\code\\pbo\\Sireduk\\Sireduk\\view\\login_frm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -97,50 +101,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "KelurahanControl.cs",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\KelurahanControl.cs",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\KelurahanControl.cs",
               "RelativeDocumentMoniker": "Sireduk\\view\\KelurahanControl.cs",
-              "ToolTip": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\KelurahanControl.cs",
+              "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\KelurahanControl.cs",
               "RelativeToolTip": "Sireduk\\view\\KelurahanControl.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwDMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAQwHYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T02:42:07.115Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "KecamatanControl.cs",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\KecamatanControl.cs",
+              "DocumentIndex": 2,
+              "Title": "KecamatanControl.cs [Design]",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\KecamatanControl.cs",
               "RelativeDocumentMoniker": "Sireduk\\view\\KecamatanControl.cs",
-              "ToolTip": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\KecamatanControl.cs",
+              "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\KecamatanControl.cs [Design]",
+              "RelativeToolTip": "Sireduk\\view\\KecamatanControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:37:04.762Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KecamatanControl.cs",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\KecamatanControl.cs",
+              "RelativeDocumentMoniker": "Sireduk\\view\\KecamatanControl.cs",
+              "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\KecamatanControl.cs",
               "RelativeToolTip": "Sireduk\\view\\KecamatanControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAH8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T03:40:16.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KelurahanControl.cs [Design]",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\KelurahanControl.cs",
+              "RelativeDocumentMoniker": "Sireduk\\view\\KelurahanControl.cs",
+              "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\KelurahanControl.cs [Design]",
+              "RelativeToolTip": "Sireduk\\view\\KelurahanControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T02:37:31.887Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Kelurahan_cls.cs",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\model\\Kelurahan_cls.cs",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\model\\Kelurahan_cls.cs",
               "RelativeDocumentMoniker": "Sireduk\\model\\Kelurahan_cls.cs",
-              "ToolTip": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\model\\Kelurahan_cls.cs",
+              "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\model\\Kelurahan_cls.cs",
               "RelativeToolTip": "Sireduk\\model\\Kelurahan_cls.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAYwFkAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAQwFYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T02:59:50.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "Penduduk_cls.cs",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\model\\Penduduk_cls.cs",
+              "RelativeDocumentMoniker": "Sireduk\\model\\Penduduk_cls.cs",
+              "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\model\\Penduduk_cls.cs",
+              "RelativeToolTip": "Sireduk\\model\\Penduduk_cls.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T21:13:37.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PendudukControl.cs [Design]",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\PendudukControl.cs",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\PendudukControl.cs",
               "RelativeDocumentMoniker": "Sireduk\\view\\PendudukControl.cs",
-              "ToolTip": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\PendudukControl.cs [Design]",
+              "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\PendudukControl.cs [Design]",
               "RelativeToolTip": "Sireduk\\view\\PendudukControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T20:17:22.141Z",
@@ -148,22 +194,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "KelurahanControl.cs [Design]",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\KelurahanControl.cs",
-              "RelativeDocumentMoniker": "Sireduk\\view\\KelurahanControl.cs",
-              "ToolTip": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\KelurahanControl.cs [Design]",
-              "RelativeToolTip": "Sireduk\\view\\KelurahanControl.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T02:37:31.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "PendudukControl.cs",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\PendudukControl.cs",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\PendudukControl.cs",
               "RelativeDocumentMoniker": "Sireduk\\view\\PendudukControl.cs",
-              "ToolTip": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\PendudukControl.cs",
+              "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\PendudukControl.cs",
               "RelativeToolTip": "Sireduk\\view\\PendudukControl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAALYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -172,11 +207,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "splashscreen_cls.cs",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\splashscreen_cls.cs",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\splashscreen_cls.cs",
               "RelativeDocumentMoniker": "Sireduk\\view\\splashscreen_cls.cs",
-              "ToolTip": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\splashscreen_cls.cs",
+              "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\splashscreen_cls.cs",
               "RelativeToolTip": "Sireduk\\view\\splashscreen_cls.cs",
               "ViewState": "AgIAAAAAAACwQFQqCoAawBMAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -184,11 +219,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "splashscreen_cls.Designer.cs",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\splashscreen_cls.Designer.cs",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\splashscreen_cls.Designer.cs",
               "RelativeDocumentMoniker": "Sireduk\\view\\splashscreen_cls.Designer.cs",
-              "ToolTip": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\splashscreen_cls.Designer.cs",
+              "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\splashscreen_cls.Designer.cs",
               "RelativeToolTip": "Sireduk\\view\\splashscreen_cls.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAiwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -196,35 +231,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "splashscreen_cls.cs [Design]",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\splashscreen_cls.cs",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\splashscreen_cls.cs",
               "RelativeDocumentMoniker": "Sireduk\\view\\splashscreen_cls.cs",
               "ToolTip": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\splashscreen_cls.cs [Design]",
-              "RelativeToolTip": "Sireduk\\view\\splashscreen_cls.cs [Design]",
+              "RelativeToolTip": "..\\..\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\splashscreen_cls.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T22:31:43.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "KoneksiDb_cls.cs",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\config\\KoneksiDb_cls.cs",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\config\\KoneksiDb_cls.cs",
               "RelativeDocumentMoniker": "Sireduk\\config\\KoneksiDb_cls.cs",
-              "ToolTip": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\config\\KoneksiDb_cls.cs",
+              "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\config\\KoneksiDb_cls.cs",
               "RelativeToolTip": "Sireduk\\config\\KoneksiDb_cls.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T21:49:59.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T21:49:59.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Services_cls.cs",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\config\\Services_cls.cs",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\config\\Services_cls.cs",
               "RelativeDocumentMoniker": "Sireduk\\config\\Services_cls.cs",
-              "ToolTip": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\config\\Services_cls.cs",
+              "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\config\\Services_cls.cs",
               "RelativeToolTip": "Sireduk\\config\\Services_cls.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -232,9 +266,9 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "dashboard.cs [Design]",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\dashboard.cs",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\dashboard.cs",
               "RelativeDocumentMoniker": "Sireduk\\view\\dashboard.cs",
               "ToolTip": "C:\\my_folder\\code\\pbo\\Sireduk\\Sireduk\\view\\dashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -242,66 +276,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Kecamatan_cls.cs",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\model\\Kecamatan_cls.cs",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\model\\Kecamatan_cls.cs",
               "RelativeDocumentMoniker": "Sireduk\\model\\Kecamatan_cls.cs",
-              "ToolTip": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\model\\Kecamatan_cls.cs",
+              "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\model\\Kecamatan_cls.cs",
               "RelativeToolTip": "Sireduk\\model\\Kecamatan_cls.cs",
               "ViewState": "AgIAABUAAAAAAAAAAADwvxsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T21:14:11.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T21:14:11.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Penduduk_cls.cs",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\model\\Penduduk_cls.cs",
-              "RelativeDocumentMoniker": "Sireduk\\model\\Penduduk_cls.cs",
-              "ToolTip": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\model\\Penduduk_cls.cs",
-              "RelativeToolTip": "Sireduk\\model\\Penduduk_cls.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAwFkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T21:13:37.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\MainForm.cs",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\MainForm.cs",
               "RelativeDocumentMoniker": "Sireduk\\view\\MainForm.cs",
-              "ToolTip": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\MainForm.cs",
+              "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\MainForm.cs",
               "RelativeToolTip": "Sireduk\\view\\MainForm.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAEwEoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T20:10:48.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\MainForm.cs",
-              "RelativeDocumentMoniker": "Sireduk\\view\\MainForm.cs",
-              "ToolTip": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\MainForm.cs [Design]",
-              "RelativeToolTip": "Sireduk\\view\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T20:10:47.062Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-21T20:10:48.371Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\MainForm.cs",
+              "RelativeDocumentMoniker": "Sireduk\\view\\MainForm.cs",
+              "ToolTip": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\MainForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T20:10:47.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "KabupatenControl.cs [Design]",
-              "DocumentMoniker": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\KabupatenControl.cs",
+              "DocumentMoniker": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\KabupatenControl.cs",
               "RelativeDocumentMoniker": "Sireduk\\view\\KabupatenControl.cs",
               "ToolTip": "D:\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\KabupatenControl.cs [Design]",
-              "RelativeToolTip": "Sireduk\\view\\KabupatenControl.cs [Design]",
+              "RelativeToolTip": "..\\..\\PBO\\sistem_kependudukan-main\\Sireduk\\view\\KabupatenControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T20:10:03.921Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-21T20:10:03.921Z"
             }
           ]
         }
