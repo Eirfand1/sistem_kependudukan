@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\project_PBO\\sistem_kependudukan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\view\\kelurahancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|d:\\project_pbo\\sistem_kependudukan\\sireduk\\view\\kelurahancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\kelurahancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\kecamatancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|d:\\project_pbo\\sistem_kependudukan\\sireduk\\view\\kecamatancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\view\\kecamatancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\view\\kecamatancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\model\\kelurahan_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|d:\\project_pbo\\sistem_kependudukan\\sireduk\\model\\penduduk_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|D:\\project_PBO\\sistem_kependudukan\\sireduk\\model\\penduduk_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FF596EE-BBC3-427D-82D7-9D1A42A23CCA}|Sireduk\\Sireduk.csproj|solutionrelative:sireduk\\model\\penduduk_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -107,7 +107,7 @@
               "RelativeDocumentMoniker": "Sireduk\\view\\KelurahanControl.cs",
               "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\KelurahanControl.cs",
               "RelativeToolTip": "Sireduk\\view\\KelurahanControl.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAlwGAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAqwHMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T02:42:07.115Z",
               "IsPinned": true,
@@ -126,8 +126,7 @@
               "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\KecamatanControl.cs [Design]",
               "RelativeToolTip": "Sireduk\\view\\KecamatanControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T04:37:04.762Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-03T04:37:04.762Z"
             },
             {
               "$type": "Document",
@@ -139,8 +138,7 @@
               "RelativeToolTip": "Sireduk\\view\\KecamatanControl.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAAAH8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T03:40:16.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T03:40:16.536Z"
             },
             {
               "$type": "Document",
@@ -151,8 +149,7 @@
               "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\KelurahanControl.cs [Design]",
               "RelativeToolTip": "Sireduk\\view\\KelurahanControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T02:37:31.887Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-02T02:37:31.887Z"
             },
             {
               "$type": "Document",
@@ -164,8 +161,7 @@
               "RelativeToolTip": "Sireduk\\model\\Kelurahan_cls.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAQwFYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T02:59:50.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T02:59:50.629Z"
             },
             {
               "$type": "Document",
@@ -177,8 +173,7 @@
               "RelativeToolTip": "Sireduk\\model\\Penduduk_cls.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAAAGAAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T21:13:37.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T21:13:37.681Z"
             },
             {
               "$type": "Document",
@@ -189,8 +184,7 @@
               "ToolTip": "D:\\project_PBO\\sistem_kependudukan\\Sireduk\\view\\PendudukControl.cs [Design]",
               "RelativeToolTip": "Sireduk\\view\\PendudukControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T20:17:22.141Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-21T20:17:22.141Z"
             },
             {
               "$type": "Document",
@@ -202,8 +196,7 @@
               "RelativeToolTip": "Sireduk\\view\\PendudukControl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAALYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T02:31:48.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T02:31:48.715Z"
             },
             {
               "$type": "Document",
