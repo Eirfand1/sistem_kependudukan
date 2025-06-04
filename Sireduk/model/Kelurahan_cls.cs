@@ -47,7 +47,7 @@ namespace Sireduk.model
         public bool isExist(string id)
         {
             bool cek = false;
-            Query = $"select * from kecamatan where id_kelurahan='{id}'";
+            Query = $"select * from kelurahan where id_kelurahan='{id}'";
 
             if (server.EksekusiQuery(Query).Rows.Count > 0)
             {
